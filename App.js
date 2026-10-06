@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { FlatList, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import ProductCard from './components/ProductCard';
+import ProductCard from './components/ProductCardd';
 import { PRODUCTS } from './data/products';
 
 export default function App() {
